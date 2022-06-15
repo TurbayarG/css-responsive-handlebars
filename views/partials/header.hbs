@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <div class="side-title">
+                <h1>Living the social life</h1>
+                <p class="subtitle"> A blog exporting minimalism in life</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class= {{#if home}} 'current-page' {{else}} "" {{/if}} href="/">Home </a></li>
+                    <li><a class= {{#if aboutMe}} 'current-page' {{else}} "" {{/if}} href="/about-me">About me</a></li>
+                    <li><a class= {{#if recentPost}} 'current-page' {{else}} "" {{/if}} href="/recent-posts">Recent posts</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+</body>
+</html>
